@@ -14,7 +14,7 @@ default_config = Config({
     
     "eval_numsteps": 10000,
     "eval_times": 5,
-    "replay_size": 20000,
+    "replay_size": 1000000,
 
     "algo": "FlowAC",
     "policy": "Flow", 
