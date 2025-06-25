@@ -47,11 +47,6 @@ We are delighted to introduce FlowRL. It is a new approach for online reinforcem
 ## News
 [2025/06/10]🔥We release the PyTorch version of the code.
 
-## Table of Contents
-
-
-## Introduction
-
 
 ## Getting started
 git clone https://github.com/bytedance/FlowRL.git
@@ -67,7 +62,7 @@ or run parallel:
 bash scripts/train_parallel.sh
 ## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
-
+## TODO
 ## Citation
 If you find FlowRL useful for your research and applications, please consider giving us a star ⭐ or cite us using:
 
