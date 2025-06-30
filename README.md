@@ -47,7 +47,7 @@ We are delighted to introduce FlowRL. It is a new approach for online reinforcem
 ## News
 [2025/06/10]🔥We release the PyTorch version of the code.
 ## Introduction
-FlowRL is a  reinforcement learning framework that leverages flow-based policy representation and integrates Wasserstein-2-regularized optimization. By implicitly constraining the current policy to the optimal behavioral policy via W2 distance, FlowRL achieves superior performance on challenging benchmarks like the DM_Control (Dog domain, Humanoid domain) and Humanoid_Bench.
+FlowRL is an  Actor-Critic framework that leverages flow-based policy representation and integrates Wasserstein-2-regularized optimization. By implicitly constraining the current policy to the optimal behavioral policy via W2 distance, FlowRL achieves superior performance on challenging benchmarks like the DM_Control (Dog domain, Humanoid domain) and Humanoid_Bench.
 ## Getting Started
 
 1. **Setup Conda Environment:**
