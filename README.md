@@ -61,7 +61,7 @@ python3 main.py --domain dog --task run
 
 # For parallel training
 bash scripts/train_parallel.sh
-
+```bash
 ## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 ## TODO
