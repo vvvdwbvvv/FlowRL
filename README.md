@@ -46,22 +46,38 @@ We are delighted to introduce FlowRL. It is a new approach for online reinforcem
 
 ## News
 [2025/06/10]🔥We release the PyTorch version of the code.
-
+## Introduction
+FlowRL is a  reinforcement learning framework that leverages flow-based policy representation and integrates Wasserstein-2-regularized optimization. By implicitly constraining the current policy to the optimal behavioral policy via W2 distance, FlowRL achieves superior performance on challenging benchmarks like the DM_Control (Dog domain, Humanoid domain) and Humanoid_Bench.
 ## Getting Started
-```bash
-# Clone the repository
-git clone https://github.com/bytedance/FlowRL.git
-cd FlowRL
 
-# Install dependencies
-pip install -r requirements.txt
+1. **Setup Conda Environment:**
+    Create an environment with
+    ```bash
+    conda create -n flowrl python=3.11
+    ```
 
-# Training example
-python3 main.py --domain dog --task run
+2. **Clone this Repository:**
+    ```bash
+    git clone https://github.com/bytedance/FlowRL.git
+    cd FlowRL
+    ```
 
-# For parallel training
-bash scripts/train_parallel.sh
-```bash
+3. **Install FlowRL Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Training Examples:**
+    - Run a single training instance:
+        ```bash
+        python3 main.py --domain dog --task run
+        ```
+
+    - Run parallel training:
+        ```bash
+        bash scripts/train_parallel.sh
+        ```
+
 ## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 ## TODO
