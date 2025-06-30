@@ -81,6 +81,7 @@ FlowRL is an  Actor-Critic framework that leverages flow-based policy representa
 ## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
 ## TODO
+- [ ] Release JAX version source code
 ## Citation
 If you find FlowRL useful for your research and applications, please consider giving us a star ⭐ or cite us using:
 
