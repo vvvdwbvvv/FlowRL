@@ -5,5 +5,5 @@ mujoco
 torchvision
 torch
 imageio
-gymnaisum
+gymnasium
 tensorboard
